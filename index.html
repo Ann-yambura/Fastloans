@@ -1,0 +1,120 @@
+<!DECOTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>personal portfolio website - Easy Tutorials</title>
+<link rel="stylesheet" href=style.css>
+</head>
+<body>
+<div id="header">
+<div class="container">
+<nav>
+    <img src="c:\Users\raymo\OneDrive\Pictures\images (48).jpeg" class="logo">
+    <ul>
+        <li><a href="#">Home</a></li>
+            <li><a href="#">About</a></li>
+            <li><a href="#">Services</a></li>
+            <li><a href="#">Contact</a></li>
+    </ul>
+</nav>
+<div class="header-text">
+    <p>QUICK ACCESIBLE LOANS</p>
+    <h1><span>Maximum</span> loan amount <br>upto ksh 200,000</h1>
+</div>
+</div>
+<!------------------about---------->
+<div id="about">
+    <div class="container">
+        <div class="about-col-1">
+            <img src="c:\Users\raymo\OneDrive\Pictures\Screenshot_20240112-121519.jpg">
+        </div>
+<div class="about-col-2">
+    <h1 class="sub-title"> About Fast loans</h1>
+    <p>Fast loan is the most flexible personal loan platform on the market, giving 
+        kenyans more control over their finances with its unique features. We 
+        offer a simple registration and application process, after which you 
+        will receive your loan straight to your 
+        M-PESA account within minutes.<br>
+        <br>
+        <b>WHERE OFFICES ARE LOCATED</b><br>
+        Fast loan office is located in NAIROBI ,KENYA
+        <br>
+        <BR>
+        <b>IS MY DATA SECURE WITH FAST LOANS</b><BR>
+            <BR>
+            Fast loan uses state-of-the-art 
+            encryption techniques to make sure 
+            your data is always 100% secure. your
+            data is never shared with or sold to 
+            third parties, unless for specific reasons
+            like reporting to authorized 
+            CREDIT BUREAUS.
+
+            <div class="tab-titles">
+                <p class="tab-links active-link" onclick="opentab('ABOUT')">ABOUT</p>
+                <p class="tab-links" onclick="opentab('LOCATION')">LOCATION</p>
+                <p class="tab-links" onclick="opentab('CONTACT')">CONTACT</p>
+            </div>
+            <div class="tab-contents active-tab" id="ABOUT">
+                <ul>
+                    <li><span>DISBURSING APPLIED </span><BR>LOANS</li>
+                        <li><span>PERSONAL SECURITY PIN TO<br>ENSURE PROTECTION</span><BR>LOANS</li>
+                            <li><span>LOW INTEREST</span><BR>AND RATES</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="LOCATION">
+                <ul>
+                    <li><span>DISBURSING APPLIED </span><BR>LOANS</li>
+                        <li><span>PERSONAL SECURITY PIN TO<br>ENSURE PROTECTION</span><BR>LOANS</li>
+                            <li><span>LOW INTEREST</span><BR>AND RATES</li>
+                </ul>
+            </div>
+            <div class="tab-contents" id="CONTACT">
+                <ul>
+                    <li><span>DISBURSING APPLIED </span><BR>LOANS</li>
+                        <li><span>PERSONAL SECURITY PIN TO<br>ENSURE PROTECTION</span><BR>LOANS</li>
+                            <li><span>LOW INTEREST</span><BR>AND RATES</li>
+                </ul>
+            </div>
+    </p>
+</div>
+<!------------------services---------->
+<div id="services">
+<div class="container">
+    <h1 class="sub-title"> Apply for loan up to ksh 200,000</h1>
+    <div class="loan ">
+        <div>
+            <h2>loan purpose</h2>
+            <p>fast loan is efficient</p>
+            <a href="#">learn more</a>
+        </div>
+        <di>
+            <h2>loan purpose</h2>
+            <p>fast loan is efficient</p>
+            <a href="#">learn more</a>
+        </di>
+    </div>
+</div>
+</div>
+
+<script>
+
+var tablinks = document.getElementsByClassName("tab-links");
+var tabcontents = document.getElementsByClassName("tab-contents");
+
+function opentab(tabname){
+    for(tablink of tablinks){
+        tabcontent.classlist.remove("active-tab");
+    }
+    for(tabcontent of tabcontentS){
+        tabcontent.classlist.remove("active-tab");
+    }
+    event.currentTarget.classlist.add("active-link");
+    document.getElementById(tabname).classList.add("active-tab");
+}
+
+</script>
+</body>
+</html>
